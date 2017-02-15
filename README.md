@@ -28,7 +28,7 @@ bower install number-in-letters
 
 ## Usage
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(1234); // => 'one thousand two hundred and thirty-four'
 ```
 
