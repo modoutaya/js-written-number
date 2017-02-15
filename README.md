@@ -44,6 +44,7 @@ Currently supported languages are:
 - French `lang = "fr"`
 - Esperanto `lang = "eo"`
 - Vietnamese `lang = "vi"`
+- Belgium `lang = "bl"`
 
 ### Spanish Example
 ```javascript
@@ -79,6 +80,12 @@ writtenNumber(1234, { lang: 'eo' }); // => 'mil ducent tridek kvar'
 ```javascript
 var writtenNumber = require('written-number');
 writtenNumber(1234, { lang: 'vi' }); // => 'một ngàn hai trăm và ba mươi bốn'
+```
+
+### Belgium Example
+```javascript
+var writtenNumber = require('written-number');
+writtenNumber(90, { lang: 'bl' }); // => 'nonante'
 ```
 
 ## Options
