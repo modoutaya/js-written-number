@@ -1,4 +1,4 @@
-# js-written-number
+# number-in-letters
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yamadapc/js-written-number?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Build Status](https://secure.travis-ci.org/yamadapc/js-written-number.png?branch=master)](http://travis-ci.org/yamadapc/js-written-number)
 [![Code Climate](https://codeclimate.com/github/yamadapc/js-written-number.png)](https://codeclimate.com/github/yamadapc/js-written-number)
@@ -10,6 +10,9 @@
 [![npm version](https://img.shields.io/npm/v/written-number.svg)](https://www.npmjs.org/package/written-number)
 - - -
 Convert numbers to words - their written form.
+
+This module extends the written-number's module.
+He adds it the conversion of a number in Belgian French by respecting the Belgian's grammatical rules.
 
 ## Install with npm
 
@@ -48,43 +51,43 @@ Currently supported languages are:
 
 ### Spanish Example
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(1234, { lang: 'es' }); // => 'mil doscientos treinta y cuatro'
 ```
 
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtennumber.defaults.lang = 'es';
 writtenNumber(4758); // => 'cuatro mil setecientos cincuenta y ocho'
 ```
 
 ### Portuguese Example
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(1234, { lang: 'pt' }); // => 'mil duzentos e trinta e quatro'
 ```
 
 ### French Example
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(1234, { lang: 'fr' }); // => 'mille deux cent trente-quatre'
 ```
 
 ### Esperanto Example
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(1234, { lang: 'eo' }); // => 'mil ducent tridek kvar'
 ```
 
 ### Vietnamese Example
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(1234, { lang: 'vi' }); // => 'một ngàn hai trăm và ba mươi bốn'
 ```
 
 ### Belgium Example
 ```javascript
-var writtenNumber = require('written-number');
+var writtenNumber = require('number-in-letters');
 writtenNumber(90, { lang: 'bl' }); // => 'nonante'
 ```
 
@@ -258,3 +261,4 @@ and `package.json`.
 ## License
 This code is licensed under the MIT license for Pedro Tacla Yamada. For more
 information, please refer to the [LICENSE](/LICENSE) file.
+This library is available under the [MIT] (https://opensource.org/licenses/mit-license.php) license.
