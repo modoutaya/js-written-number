@@ -14,13 +14,13 @@ Convert numbers to words - their written form.
 ## Install with npm
 
 ```bash
-npm i --save written-number
+npm i --save number-in-letters
 ```
 
 ## Install with bower
 
 ```bash
-bower install written-number
+bower install number-in-letters
 ```
 
 ## Usage
