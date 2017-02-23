@@ -1,4 +1,4 @@
-# number-to-letters
+# number-2-letters
 
 Convert numbers to words - their written form.
 
@@ -8,18 +8,18 @@ He adds it the conversion of a number in Belgian French by respecting the Belgia
 ## Install with npm
 
 ```bash
-npm i --save number-to-letters
+npm i --save number-2-letters
 ```
 
 ## Install with bower
 
 ```bash
-bower install number-to-letters
+bower install number-2-letters
 ```
 
 ## Usage
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(1234); // => 'one thousand two hundred and thirty-four'
 ```
 
@@ -42,43 +42,43 @@ Currently supported languages are:
 
 ### Spanish Example
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(1234, { lang: 'es' }); // => 'mil doscientos treinta y cuatro'
 ```
 
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters.defaults.lang = 'es';
 numberToLetters(4758); // => 'cuatro mil setecientos cincuenta y ocho'
 ```
 
 ### Portuguese Example
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(1234, { lang: 'pt' }); // => 'mil duzentos e trinta e quatro'
 ```
 
 ### French Example
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(1234, { lang: 'fr' }); // => 'mille deux cent trente-quatre'
 ```
 
 ### Esperanto Example
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(1234, { lang: 'eo' }); // => 'mil ducent tridek kvar'
 ```
 
 ### Vietnamese Example
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(1234, { lang: 'vi' }); // => 'một ngàn hai trăm và ba mươi bốn'
 ```
 
 ### Belgium Example
 ```javascript
-var numberToLetters = require('number-to-letters');
+var numberToLetters = require('number-2-letters');
 numberToLetters(90, { lang: 'bl' }); // => 'nonante'
 ```
 
