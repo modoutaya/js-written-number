@@ -1,4 +1,4 @@
-# number-in-letters
+# number-to-letters
 
 Convert numbers to words - their written form.
 
