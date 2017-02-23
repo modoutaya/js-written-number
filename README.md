@@ -1,32 +1,26 @@
-# js-written-number
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yamadapc/js-written-number?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Build Status](https://secure.travis-ci.org/yamadapc/js-written-number.png?branch=master)](http://travis-ci.org/yamadapc/js-written-number)
-[![Code Climate](https://codeclimate.com/github/yamadapc/js-written-number.png)](https://codeclimate.com/github/yamadapc/js-written-number)
-[![Coverage Status](https://coveralls.io/repos/yamadapc/js-written-number/badge.png?branch=master)](https://coveralls.io/r/yamadapc/js-written-number?branch=master)
-[![Dependency Status](https://david-dm.org/yamadapc/js-written-number.png)](https://david-dm.org/yamadapc/js-written-number)
-[![devDependency Status](https://david-dm.org/yamadapc/js-written-number/dev-status.png)](https://david-dm.org/yamadapc/js-written-number#info=devDependencies)
-[![Analytics](https://ga-beacon.appspot.com/UA-54450544-1/js-written-number/README)](https://github.com/igrigorik/ga-beacon)
-[![npm downloads per month](http://img.shields.io/npm/dm/written-number.svg)](https://www.npmjs.org/package/written-number)
-[![npm version](https://img.shields.io/npm/v/written-number.svg)](https://www.npmjs.org/package/written-number)
-- - -
+# number-in-letters
+
 Convert numbers to words - their written form.
+
+This module extends the written-number's module.
+He adds it the conversion of a number in Belgian French by respecting the Belgian's grammatical rules.
 
 ## Install with npm
 
 ```bash
-npm i --save written-number
+npm i --save number-to-letters
 ```
 
 ## Install with bower
 
 ```bash
-bower install written-number
+bower install number-to-letters
 ```
 
 ## Usage
 ```javascript
-var writtenNumber = require('written-number');
-writtenNumber(1234); // => 'one thousand two hundred and thirty-four'
+var numberToLetters = require('number-to-letters');
+numberToLetters(1234); // => 'one thousand two hundred and thirty-four'
 ```
 
 ## Options
@@ -44,41 +38,48 @@ Currently supported languages are:
 - French `lang = "fr"`
 - Esperanto `lang = "eo"`
 - Vietnamese `lang = "vi"`
+- Belgium `lang = "bl"`
 
 ### Spanish Example
 ```javascript
-var writtenNumber = require('written-number');
-writtenNumber(1234, { lang: 'es' }); // => 'mil doscientos treinta y cuatro'
+var numberToLetters = require('number-to-letters');
+numberToLetters(1234, { lang: 'es' }); // => 'mil doscientos treinta y cuatro'
 ```
 
 ```javascript
-var writtenNumber = require('written-number');
-writtennumber.defaults.lang = 'es';
-writtenNumber(4758); // => 'cuatro mil setecientos cincuenta y ocho'
+var numberToLetters = require('number-to-letters');
+numberToLetters.defaults.lang = 'es';
+numberToLetters(4758); // => 'cuatro mil setecientos cincuenta y ocho'
 ```
 
 ### Portuguese Example
 ```javascript
-var writtenNumber = require('written-number');
-writtenNumber(1234, { lang: 'pt' }); // => 'mil duzentos e trinta e quatro'
+var numberToLetters = require('number-to-letters');
+numberToLetters(1234, { lang: 'pt' }); // => 'mil duzentos e trinta e quatro'
 ```
 
 ### French Example
 ```javascript
-var writtenNumber = require('written-number');
-writtenNumber(1234, { lang: 'fr' }); // => 'mille deux cent trente-quatre'
+var numberToLetters = require('number-to-letters');
+numberToLetters(1234, { lang: 'fr' }); // => 'mille deux cent trente-quatre'
 ```
 
 ### Esperanto Example
 ```javascript
-var writtenNumber = require('written-number');
-writtenNumber(1234, { lang: 'eo' }); // => 'mil ducent tridek kvar'
+var numberToLetters = require('number-to-letters');
+numberToLetters(1234, { lang: 'eo' }); // => 'mil ducent tridek kvar'
 ```
 
 ### Vietnamese Example
 ```javascript
-var writtenNumber = require('written-number');
-writtenNumber(1234, { lang: 'vi' }); // => 'một ngàn hai trăm và ba mươi bốn'
+var numberToLetters = require('number-to-letters');
+numberToLetters(1234, { lang: 'vi' }); // => 'một ngàn hai trăm và ba mươi bốn'
+```
+
+### Belgium Example
+```javascript
+var numberToLetters = require('number-to-letters');
+numberToLetters(90, { lang: 'bl' }); // => 'nonante'
 ```
 
 ## Options
@@ -251,3 +252,4 @@ and `package.json`.
 ## License
 This code is licensed under the MIT license for Pedro Tacla Yamada. For more
 information, please refer to the [LICENSE](/LICENSE) file.
+This library is available under the [MIT] (https://opensource.org/licenses/mit-license.php) license.

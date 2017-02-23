@@ -1,0 +1,128 @@
+{
+  "useLongScale": false,
+  "baseSeparator": "-",
+  "unitSeparator": "",
+  "base": {
+    "0": "zero",
+    "1": "un",
+    "2": "deux",
+    "3": "trois",
+    "4": "quatre",
+    "5": "cinq",
+    "6": "six",
+    "7": "sept",
+    "8": "huit",
+    "9": "neuf",
+    "10": "dix",
+    "11": "onze",
+    "12": "douze",
+    "13": "treize",
+    "14": "quatorze",
+    "15": "quinze",
+    "16": "seize",
+    "17": "dix-sept",
+    "18": "dix-huit",
+    "19": "dix-neuf",
+    "20": "vingt",
+    "30": "trente",
+    "40": "quarante",
+    "50": "cinquante",
+    "60": "soixante",
+    "70": "septante",
+    "80": "quatre-vingt",
+    "90": "nonante"
+  },
+  "units" : [
+    {
+      "singular": "cent",
+      "plural": "cents",
+      "avoidInNumberPlural": true,
+      "avoidPrefixException": [1]
+    },
+    {
+      "singular": "mille",
+      "avoidPrefixException": [1]
+    },
+    {
+      "singular": "million",
+      "plural": "millions"
+    },
+    {
+      "singular": "milliard",
+      "plural": "milliards"
+    },
+    {
+      "singular": "billion",
+      "plural": "billions"
+    },
+    {
+      "singular": "billiard",
+      "plural": "billiards"
+    },
+    {
+      "singular": "trillion",
+      "plural": "trillions"
+    },
+    {
+      "singular": "trilliard",
+      "plural": "trilliards"
+    },
+    {
+      "singular": "quadrillion",
+      "plural": "quadrillions"
+    },
+    {
+      "singular": "quadrilliard",
+      "plural": "quadrilliards"
+    },
+    {
+      "singular": "quintillion",
+      "plural": "quintillions"
+    },
+    {
+      "singular": "quintilliard",
+      "plural": "quintilliards"
+    },
+    {
+      "singular": "sextillion",
+      "plural": "sextillions"
+    },
+    {
+      "singular": "sextilliard",
+      "plural": "sextilliards"
+    },
+    {
+      "singular": "septillion",
+      "plural": "septillions"
+    },
+    {
+      "singular": "septilliard",
+      "plural": "septilliards"
+    },
+    {
+      "singular": "octillion",
+      "plural": "octillions"
+    }
+  ],
+  "unitExceptions": {
+    "71": "septante et un",
+    "72": "septante-deux",
+    "73": "septante-trois",
+    "74": "septante-quatre",
+    "75": "septante-cinq",
+    "76": "septante-six",
+    "77": "septante-sept",
+    "78": "septante-huit",
+    "79": "septante-neuf",
+    "80": "quatre-vingts",
+    "91": "nonante et un",
+    "92": "nonante-deux",
+    "93": "nonante-trois",
+    "94": "nonante-quatre",
+    "95": "nonante-cinq",
+    "96": "nonante-six",
+    "97": "nonante-sept",
+    "98": "nonante-huit",
+    "99": "nonante-neuf"
+  }
+}
